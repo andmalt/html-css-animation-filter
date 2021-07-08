@@ -108,3 +108,52 @@
     height: 40px;
     background: red;
 }
+.well .ex-6-img:hover{
+    filter: grayscale(1);
+}
+.well .ex-7-img{
+    transition: filter 4s ease 0s;
+}
+.well .ex-7-img:hover{
+    filter: opacity(0.1) hue-rotate(90deg)
+}
+.well .ex-8-img{
+    transition: all 3s ease 0s;
+}
+.well .ex-8-img:hover{
+    filter: sepia(1) saturate(1);
+    border-radius: 10px;
+}
+.well .ex-9-img{
+    transition: all 3s ease 0s;
+}
+.well .ex-9-img:hover{
+    filter: sepia(1) saturate(1);
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 50px;
+}
+.ex-10-icon:hover{
+    animation-name: anim;
+    animation-direction: normal;
+    animation-duration: 5s;
+}
+@keyframes anim{
+   0%{
+       rotate: 0;
+   }
+   25%{
+       rotate: 25%;
+   }
+   50%{
+       rotate: 50%;
+   }
+   75%{
+       rotate: 75%;
+   }
+   100%{
+       rotate: 100%;
+   }
+
+}
+
