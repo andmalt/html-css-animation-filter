@@ -82,3 +82,29 @@
 .well > .ex-2-square:active{
     width: 500px;
 }
+.well > .ex-3-square{
+    transition: all 3s ease 0s;
+}
+.well > .ex-3-square:hover{
+    border-radius: 100%;
+}
+.well .ex-4-square{
+    transition: all 3s ease 0s;
+}
+.well .ex-4-square:hover{
+    opacity: 0;
+}
+.well .ex-5-square{
+    transition: all 3s ease 0s;
+}
+.well .ex-5-square:hover{
+    width: 80px;
+    height: 80px;
+    background: red;
+}
+.well .ex-5-square:active{
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    background: red;
+}
