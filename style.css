@@ -160,3 +160,85 @@
         rotate: 0turn;
    }
 }
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: anim3 2s linear;
+}
+@keyframes anim3{
+   0%{
+        bottom: -10px;
+        right: 20%;
+   }
+   50%{
+        right: 40%;
+   }
+   100%{
+        right: 60%;
+   }
+}
+.ex-12-button:hover .ex-12-top-white{
+    animation: anim4 2s linear;
+}
+@keyframes anim4{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    50%{
+        left: 30%;
+    }
+    100%{
+        left: 50%;
+    }
+ }
+
+ .ex-13-button:hover .ex-13-bottom-white{
+    animation: rotate 4s linear;
+}
+@keyframes rotate{
+   0%{
+        bottom: -10px;
+        right: 20%;
+   }
+   22.5%{
+        bottom: -10px;
+        right: calc(100% - 50px);
+   }
+   45%{
+        bottom: calc(100% - 10px);
+        right: calc(100% - 50px);
+   }
+   67.5%{
+        bottom: calc(100% - 10px);
+        right: -10px;
+   }
+   90%{
+        bottom: -10px;
+        right: -10px;
+   }
+}
+.ex-13-button:hover .ex-13-top-white{
+    animation: rotate2 4s linear;
+}
+@keyframes rotate2{
+    0%{
+        top: -10px;
+        left: 20%;
+    }
+    22.5%{
+        top: -10px;
+        left: calc(100% - 50px);
+    }
+    45%{
+        top: calc(100% - 10px);
+        left: calc(100% - 50px);
+    }
+    67.5%{
+        top: calc(100% - 10px);
+        left: -10px;
+    }
+    90%{
+        top: -10px;
+        left: -10px;
+    }
+ }
